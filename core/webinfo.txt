@@ -1,0 +1,8 @@
+url==http://gy1yinhe.fftechs.com:2086
+text_xpath==//*[@id="header"]/div/div[3]/div[1]/span[2]
+text_xpath==//*[@id="header"]/div/div[3]/div[1]/span[2]
+user_xpath==//*[@id="content"]/div[2]/div[2]/div/div/div[1]/div/div[3]/div[1]/div/input
+pwd_xpath==//*[@id="content"]/div[2]/div[2]/div/div/div[1]/div/div[3]/div[2]/div/input
+login_xpath==//*[@id="content"]/div[2]/div[2]/div/div/div[1]/div/div[3]/div[7]/span
+alter_xpath==//div[@type="dialog"]/div[2]
+notice_sure_xpath==//div[@type="dialog"]/div[3]/a
