@@ -24,6 +24,7 @@ from usedata import get_userinfo_byfile
 from usedata import XLUserInfo
 import time
 from log_module import LogInfo
+from log_module import XLLogInfo
 import sys
 import os
 
@@ -102,10 +103,19 @@ def checkRusult(driver, err_xpath, arg, log):
     time.sleep(3)
     try:
         err = driver.find_element_by_xpath(err_xpath)
-        msg = "%s:error:%s%s" % (arg, err.text,'\n')
+        # msg = "%s:error:%s%s" % (arg, err.text,'\n')
+        # 把数据拼接为列表格式
+        msg = []
+        msg.append(arg)
+        msg.append('error')
+        msg.append(err.text)
         log.log_write(msg)
     except:
-        msg = "%s:pass" % (arg)
+        # msg = "%s:pass" % (arg)
+        # 把数据拼接为列表格式
+        msg = []
+        msg.append(arg)
+        msg.append('pass')
         log.log_write(msg)
         login_ok = True
     return login_ok
@@ -120,11 +130,13 @@ def click_notict(driver,xpath):
     notice = driver.find_element_by_xpath(xpath)
     notice.click()
 
+# 测试登录
 def login_test(ele_dict, user_list):
     driver = openBrower()
     loadUrl(driver, ele_dict['url'])
     ele_tuple = findElement(driver, ele_dict)
-    log = LogInfo('demo')
+    # log = LogInfo('demo')
+    log = XLLogInfo('测试结果')
     time.sleep(3)
     for arg in user_list:
         sendValues(ele_tuple, arg)
@@ -151,9 +163,15 @@ if __name__ == '__main__':
 
     user_list = [{ 'username': 'caipiao01', 'password': 'caipiao01'}]
       """
+    # 从文件获取数据
     # user_list = get_userinfo_byfile('userinfo.txt')
     # ele_dict = get_webinfo_byfile('webinfo.txt')
+
+    # 从Excel获取数据
     xluserinfo = XLUserInfo('login_test.xlsx')
     user_list = xluserinfo.get_sheetinfo_by_index(0,"user")
     ele_dict = xluserinfo.get_sheetinfo_by_name("浏览器信息表","web")
     login_test(ele_dict, user_list)
+
+
+

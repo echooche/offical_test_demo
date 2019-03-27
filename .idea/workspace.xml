@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e0d18a4-36d5-4362-bd95-75005b0aa2d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/core/login_module4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/login_test.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/excel_read_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/excel_write_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/login_test.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/demo2019-03-27-00-58-20.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/demo2019-03-27-01-13-03.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/demo2019-03-27-01-15-41.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/demo2019-03-27-01-18-29.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/usedata.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/usedata.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/demo2019-03-27-03-41-17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/log_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/log_module.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/login_module4.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/login_module4.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,15 +16,6 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/userinfo.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="18" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/webinfo.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
@@ -40,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/login_module4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="149" column="5" lean-forward="true" selection-start-line="149" selection-start-column="5" selection-end-line="149" selection-end-column="5" />
+            <state relative-caret-position="450">
+              <caret line="177" column="3" lean-forward="true" selection-start-line="177" selection-start-column="3" selection-end-line="177" selection-end-column="3" />
               <folding>
                 <element signature="e#612#642#0" expanded="true" />
               </folding>
@@ -52,11 +36,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/ntpath.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-302">
+              <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/usedata.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="65" column="31" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
+            <state relative-caret-position="200">
+              <caret line="35" column="16" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -64,8 +57,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/log_module.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="25">
+              <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/xlsxwriter/worksheet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="483" column="30" selection-start-line="483" selection-start-column="27" selection-end-line="483" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/xlsxwriter/workbook.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="941" column="38" selection-start-line="941" selection-start-column="30" selection-end-line="941" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -91,26 +105,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/excel_write_demo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/xlrd/book.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="69" column="4" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/xlrd/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="147" column="25" selection-start-line="147" selection-start-column="25" selection-end-line="147" selection-end-column="25" />
+            <state relative-caret-position="250">
+              <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -126,7 +122,9 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+      <find>bg_color</find>
       <find>alter_xpath</find>
+      <find>XLUserInfo</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -141,7 +139,6 @@
       <list>
         <option value="$PROJECT_DIR$/core/login_module.py" />
         <option value="$PROJECT_DIR$/core/login_module1.py" />
-        <option value="$PROJECT_DIR$/core/log_module.py" />
         <option value="$PROJECT_DIR$/core/login_module2.py" />
         <option value="$PROJECT_DIR$/core/logintest.py" />
         <option value="$PROJECT_DIR$/core/webinfo.txt" />
@@ -149,14 +146,15 @@
         <option value="$PROJECT_DIR$/core/userinfo.txt" />
         <option value="$PROJECT_DIR$/db/excel_write_demo.py" />
         <option value="$PROJECT_DIR$/db/excel_read_demo.py" />
-        <option value="$PROJECT_DIR$/core/login_module4.py" />
         <option value="$PROJECT_DIR$/core/usedata.py" />
+        <option value="$PROJECT_DIR$/core/log_module.py" />
+        <option value="$PROJECT_DIR$/core/login_module4.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="110" />
-    <option name="y" value="63" />
+    <option name="x" value="327" />
+    <option name="y" value="48" />
     <option name="width" value="1133" />
     <option name="height" value="967" />
   </component>
@@ -258,7 +256,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="login_module3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="log_module" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="offical_test_demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -270,7 +268,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/login_module3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/log_module.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -324,10 +322,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.login_module4" />
+        <item itemvalue="Python.log_module" />
         <item itemvalue="Python.usedata" />
         <item itemvalue="Python.excel_read_demo" />
         <item itemvalue="Python.excel_write_demo" />
-        <item itemvalue="Python.login_module3" />
       </list>
     </recent_temporary>
   </component>
@@ -345,19 +343,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="110" y="63" width="1133" height="967" extended-state="0" />
+    <frame x="327" y="48" width="1133" height="967" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2648402" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2648402" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.33013207" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="2" />
       <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32893157" />
       <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.28211284" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.16566627" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39928058" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -461,17 +459,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/excel_write_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/webinfo.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/excel_write_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -482,27 +480,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/login_module4.py">
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/xlsxwriter/workbook.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="149" column="5" lean-forward="true" selection-start-line="149" selection-start-column="5" selection-end-line="149" selection-end-column="5" />
-          <folding>
-            <element signature="e#612#642#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="159">
+          <caret line="941" column="38" selection-start-line="941" selection-start-column="30" selection-end-line="941" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/remote/webelement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/xlsxwriter/worksheet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="483" column="30" selection-start-line="483" selection-start-column="27" selection-end-line="483" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/log_module.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="25">
+          <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/usedata.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="65" column="31" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
+        <state relative-caret-position="200">
+          <caret line="35" column="16" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/ntpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-302">
+          <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/login_module4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="177" column="3" lean-forward="true" selection-start-line="177" selection-start-column="3" selection-end-line="177" selection-end-column="3" />
+          <folding>
+            <element signature="e#612#642#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
