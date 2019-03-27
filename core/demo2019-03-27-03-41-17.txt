@@ -1,0 +1,4 @@
+{'username': 'caipi', 'password': 'caipiao01'}:error:请输入6-11位的正确用户名
+{'username': 'caipiao01', 'password': 'caipi'}:error:请输入6-12位的正确密码
+{'username': 'caipiao01', 'password': 'caipiao11'}:error:用户名或密码错误
+{'username': 'caipiao01', 'password': 'caipiao01'}:pass
